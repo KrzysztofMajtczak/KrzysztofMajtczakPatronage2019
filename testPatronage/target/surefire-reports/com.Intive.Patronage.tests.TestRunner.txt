@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.Intive.Patronage.tests.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 22.318 sec <<< FAILURE!
+Then I am on Intive main page(Scenario: Second test - fails with screenshot)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: User should be on Intive main page
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)
+	at com.Intive.Patronage.tests.steps.GoogleSteps.iAmOnIntiveMainPage(GoogleSteps.java:32)
+	at ✽.Then I am on Intive main page(GoogleSearch.feature:11)
+
+Scenario: Second test - fails with screenshot  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: User should be on Intive main page
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)
+	at com.Intive.Patronage.tests.steps.GoogleSteps.iAmOnIntiveMainPage(GoogleSteps.java:32)
+	at ✽.Then I am on Intive main page(GoogleSearch.feature:11)
+

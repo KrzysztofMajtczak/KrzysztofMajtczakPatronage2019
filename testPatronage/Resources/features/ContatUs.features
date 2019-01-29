@@ -1,0 +1,7 @@
+Feature: As a user I want to be able contact shop
+
+  Scenario: Check error popup when user send empty form
+    Given I open automationpractice.com website
+    When I click on ContactUs Navigation menu
+    And I click on Send button
+    Then I see that error popup is visible
